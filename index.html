@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Compressed</title>
+</head>
+<body>
+	<div>
+		<!-- <input id="image-input" type="file" accept=".jpg,.png,.jpeg,.gif"> -->
+		<input id="upload" type="file" accept=".jpg,.png,.jpeg,.gif" onchange="process()">
+		<div>
+			<!-- <img id="input-preview" alt="This is the preview of the image you are going to upload."/> -->
+			<img id="input" alt="This is the preview of the image you are going to upload."/>
+		</div>
+		<div>
+			<!-- <img id="output-preview" alt="This is the compressed result of the image you will upload."/>   -->
+			<img id="output" alt="This is the compressed result of the image you will upload."/>  
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
